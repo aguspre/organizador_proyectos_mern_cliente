@@ -19,7 +19,8 @@ export default (state, action) => {
         case OBTENER_PROYECTOS:
             return {
                 ...state,
-                proyectos: action.payload
+                proyectos: action.payload,
+                proyecto: null
             }
         case AGREGAR_PROYECTO:
             return {
